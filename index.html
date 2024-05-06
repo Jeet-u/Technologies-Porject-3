@@ -1,0 +1,196 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <!-- Start Normalize -->
+        <link rel="preload" href="css/normalize.css" as="style" />
+	    <link href="css/normalize.css" rel="stylesheet"/>
+        <!-- Finish Normalize -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Fira+Code&display=swap" rel="stylesheet">
+
+    <!-- MyStylesheet -->
+    <link rel="preload" href="css/style.css" as="style" />
+	<link href="css/style.css" rel="stylesheet"/>
+    <!-- Finish MyStylesheet -->
+    <title>CoffePaginaPrueba</title>
+    <meta name="description" content="Pagina Web De Blog De Cafe" />
+    </head>
+    <body>
+	<!-- Header -->
+	<header class="header"> <!-- Es un bloque por lo tanto es header -->
+
+	    <div class="contenedor">
+		<div class="barra">
+		    <a class="logo" href="index.html">
+			<h1 class="logo__nombre no-margin centrartexto">Blog<span class="logo__bold">DeCafe</span></h1>
+		    </a>
+		    <nav class="navegacion">
+			<a class="navegacion__enlace" href="nosotros.html">About-US</a>
+			<a class="navegacion__enlace" href="cursos.html">Cursos</a>
+			<a class="navegacion__enlace" href="contacto.html">Contacto</a>
+		    </nav>
+		</div>
+	    </div>
+	    <div class="header__text">
+		<h2 class="no-margin">Blog De Cafe con Consejos y Cursos</h2>
+		<p class="no-margin">Aprende De los Expertos con Las mejores recetas y consejos</p>
+	    </div>
+	</header>
+	<!-- FIn/HEader -->
+	<div class="contenedor contenido-principal">
+	    <main class="blog">
+		<h3>Nuesto blog</h3>
+
+
+		<article class="entrada" >
+
+          <div class="entrada__imagen">
+		    <picture>
+              <source loading="lazy" srcset="img/blog1.webp" type="image/webp" />
+              <img loading="lazy" alt="ImagenDelBlog" src="img/blog1.jpg"/>
+            </picture>
+	      </div>
+
+		  <div class="entrada__contenido">
+			<h4 class="no-margin">Tipos De Grano De Cafe</h4>
+			<p>Aliquet lectus proin nibh nisl, condimentum id venenatis a. Eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien eget mi proin.</p>
+			<a class="boton boton--primario" href="entrada.html">Leer Entrada</a>
+		    </div>
+		</article>
+		<!-- Segunda Entrada -->
+		<article class="entrada" >
+          <div class="entrada__imagen">
+		    <picture>
+              <source loading="lazy" srcset="img/blog2.webp" type="image/webp" />
+              <img loading="lazy" alt="ImagenDelBlog" src="img/blog2.jpg"/>
+            </picture>
+	      </div>
+
+		  <div class="entrada__contenido">
+			<h4 class="no-margin">Tres deliciosas Recetas de Cafe</h4>
+			<p>Aliquet lectus proin nibh nisl, condimentum id venenatis a. Eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien eget mi proin.</p>
+			<a class="boton boton--primario" href="entrada.html">Leer Entrada</a>
+		    </div>
+		</article>
+		<!-- Fin De Segunda Entrada -->
+
+		<!-- Tercer Entrada -->
+		<article class="entrada" >
+		  <div class="entrada__imagen">
+		    <picture>
+              <source loading="lazy" srcset="img/blog3.webp" type="image/webp" />
+              <img loading="lazy" alt="ImagenDelBlog" src="img/blog3.jpg"/>
+            </picture>
+	      </div>
+
+		  <div class="entrada__contenido">
+			<h4 class="no-margin">Beneficios del Cafe</h4>
+			<p>Aliquet lectus proin nibh nisl, condimentum id venenatis a. Eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien eget mi proin.</p>
+			<a class="boton boton--primario" href="entrada.html">Leer Entrada</a>
+		    </div>
+		</article>
+		<!-- Fin Tercer Entrada -->
+
+		<!-- Cuarta Entrada -->
+		<article class="entrada" >
+	      <div class="entrada__imagen">
+		    <picture>
+              <source loading="lazy" srcset="img/blog1.webp" type="image/webp" />
+              <img loading="lazy" alt="ImagenDelBlog" src="img/blog1.jpg"/>
+            </picture>
+	      </div>
+		  <div class="entrada__contenido">
+			<h4 class="no-margin">Porque Cafe?</h4>
+			<p>Aliquet lectus proin nibh nisl, condimentum id venenatis a. Eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien eget mi proin.</p>
+			<a class="boton boton--primario" href="entrada.html">Leer Entrada</a>
+		    </div>
+		</article>
+
+		<!-- FIN Cuarta Entrada -->
+	    </main>
+	    <!-- <aside class="sidebar">
+		 <h3>Nuestos cursos y talleres</h3>
+
+		 <ul class="cursos">
+		 <li class="widget-cursos">
+		 <h4 class="no-margin">Tecnicas de Extraccion de Caffe</h4>
+		 <p class="widfet-curso__label">Precio:
+		 <span class="widget-curso__info">Gratis</span>
+		 </p>
+		 <p class="widfet-curso__label">Cupo:
+		 <span class="widget-curso__info">20</span>
+		 </p>
+		 <a class="boton boton-secundario" href="entrada.html">Leer Entrada</a>
+		 </li>
+		 </ul>
+		 </aside> -->
+
+	    <aside class="sidebar">
+		<h3>Nuestros Cursos Y Talleres</h3>
+		<!-- Comienza El Primer Aside -->
+		<ul class="cursos">
+		    <li class="widget-cursos">
+			<h4 class="no-margin">Tecnicas De Extraccion de Caffe</h4>
+			<p class="widget-curso__label">Precio:
+			    <span class="widge-curso__info">Gratis</span>
+			</p>
+			<p class="widget-curso__label">Cupo:
+			    <span class="widget-curso__info">20</span>
+			</p>
+			<a class="boton boton-secundario" href="entrada.html">Leer Entrada</a>
+		    </li>
+		</ul>
+		<!-- Termina El primer aside -->
+		<!-- Comienza El Segundo Aside -->
+		<ul class="cursos">
+		    <li class="widget-cursos">
+			<h4 class="no-margin">Tecnicas De Molicion</h4>
+			<p class="widget-curso__label">Precio:
+			    <span class="widge-curso__info">20</span>
+			</p>
+			<p class="widget-curso__label">Cupo:
+			    <span class="widget-curso__info">100</span>
+			</p>
+			<a class="boton boton-secundario" href="entrada.html">Mas Informacion</a>
+		    </li>
+		</ul>
+		<!-- Termina El Segundo Aside -->
+		<!-- Comienza El Tercer Aside -->
+		<ul class="cursos">
+		    <li class="widget-cursos">
+			<h4 class="no-margin">Tecnicas En Dise&ntilde;o</h4>
+			<p class="widget-curso__label">Precio:
+			    <span class="widge-curso__info">200</span>
+			</p>
+			<p class="widget-curso__label">Cupo:
+			    <span class="widget-curso__info">2</span>
+			</p>
+			<a class="boton boton-secundario" href="entrada.html">Mas Informacion</a>
+		    </li>
+		</ul>
+		<!-- Termina El Tercer Aside -->
+
+	    </aside>
+
+
+	</div>
+
+	<footer class="fooder">
+	    <div class="contenedor barra">
+		    <a class="logo" href="index.html">
+			<h1 class="logo__nombre no-margin centrartexto">Blog<span class="logo__bold">DeCafe</span></h1>
+		    </a>
+		    <nav class="navegacion">
+			<a class="navegacion__enlace" href="nosotros.html">About-US</a>
+			<a class="navegacion__enlace" href="cursos.html">Cursos</a>
+			<a class="navegacion__enlace" href="contacto.html">Contacto</a>
+		    </nav>
+	    </div>
+	</footer>
+
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    </body>
+</html>
